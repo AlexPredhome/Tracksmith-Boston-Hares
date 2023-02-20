@@ -1,6 +1,17 @@
 * {
-    font-family: "Sainte Colombe","akzidenz-grotesk-extended", Helvetica, sans-serif;
+    font-family: "Sainte Colombe", "Didot Headline", saintecolombe-regular, saintecolombeweb-light, "akzidenz-grotesk-extended", Helvetica, sans-serif;
 }
+
+
+@font-face {
+  font-family: 'Saint Colombe'; 
+  src: url(https://www.tracksmith.com/fonts/saintecolombeweb-light.woff2);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 .picture {
     height:500px;
