@@ -1,16 +1,9 @@
+
+
+
 * {
-    font-family: "Sainte Colombe", "Didot Headline", saintecolombe-regular, saintecolombeweb-light, "akzidenz-grotesk-extended", Helvetica, sans-serif;
+    font-family: 'Sainte Colombe', "Didot Headline", saintecolombe-regular, saintecolombeweb-light, "akzidenz-grotesk-extended", Helvetica, sans-serif;
 }
-
-
-@font-face {
-  font-family: 'Saint Colombe'; 
-  src: url(https://www.tracksmith.com/fonts/saintecolombeweb-light.woff2);
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
 
 
 .picture {
@@ -74,6 +67,6 @@
   } 
 
   .fa-instagram {
-    background: #125688;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%)
     color: white;
   }
