@@ -5,6 +5,10 @@
     font-family: Helvetica, sans-serif;
 }
 
+.content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 .picture.center {
     text-align: center;
