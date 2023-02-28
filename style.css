@@ -6,15 +6,22 @@
 }
 
 
-.picture {
+.picture.center {
+    text-align: center;
     height:500px;
     width:700px;
+    
 }
 
 .logo{
     height: 100px;
     width:240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 .center{
     text-align: center;
