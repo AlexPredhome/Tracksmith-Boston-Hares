@@ -1,8 +1,42 @@
-
+@font-face {
+    font-family: 'Didot'; 
+    src: url(https://cdn.tracksmith.com/assets/331FE8_0_0.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Saint Colombe'; 
+    src: url(https://www.tracksmith.com/fonts/saintecolombeweb-light.woff2);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Saint Colombe'; 
+    src: url(https://www.tracksmith.com/fonts/saintecolombeweb-lightitalic.woff);
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Sainte Colombe Tracksmith'; 
+    src: url(https://www.datocms-assets.com/24486/1649363131-saintecolombeweb-light-1.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Sainte Colombe Tracksmith'; 
+    src: url(https://www.datocms-assets.com/24486/1649364171-saintecolombeweb-lightitalic-1.woff);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
 
 
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
 }
 
 .content{
