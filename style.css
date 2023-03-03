@@ -8,14 +8,14 @@
 @font-face {
     font-family: 'Saint Colombe'; 
     src: url(https://www.tracksmith.com/fonts/saintecolombeweb-light.woff2);
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
 @font-face {
     font-family: 'Saint Colombe'; 
     src: url(https://www.tracksmith.com/fonts/saintecolombeweb-lightitalic.woff);
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     font-display: swap;
   }
@@ -37,6 +37,20 @@
 * {
      font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
 }
+h1 {
+  font-weight: 300;
+  line-height: 64px;
+  size: 48px;
+  font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
+}
+
+p {
+  font-weight: 400;
+  size: 19px;
+  line-height: 32px;
+  font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
+}
+
 
 .content{
     margin-left: 100px;
@@ -62,6 +76,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
+    font-weight: 400;
+    size: 19px;
+    line-height: 32px;
 }
 
 
