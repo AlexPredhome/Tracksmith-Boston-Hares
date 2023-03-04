@@ -37,12 +37,15 @@
 * {
      font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
 }
+
 h1 {
   font-weight: 300;
   line-height: 64px;
   size: 48px;
   font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
 }
+
+
 
 p {
   font-weight: 400;
