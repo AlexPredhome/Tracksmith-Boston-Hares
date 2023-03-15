@@ -53,13 +53,27 @@ p {
   line-height: 32px;
   font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
   width: 900px;
+  display: block;
 }
 
+
+.title {
+  display: flex;
+ justify-content: center;
+ margin-bottom: 32px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
 
 .content{
     margin-left: 100px;
     margin-right: 100px;
 }
+
 
 .picture.center {
     text-align: center;
