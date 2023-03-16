@@ -43,17 +43,21 @@ h1 {
   line-height: 64px;
   size: 48px;
   font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
+  text-align: center;
 }
 
+.heading {
+  text-align: center;
+}
 
 
 p {
   font-weight: 400;
   size: 19px;
-  line-height: 32px;
+  height: 100px;
   font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
   width: 900px;
-  display: block;
+  text-align: center;
 }
 
 
@@ -70,6 +74,8 @@ p {
 }
 
 .content{
+  text-align: center;
+  display: block;
     margin-left: 100px;
     margin-right: 100px;
 }
