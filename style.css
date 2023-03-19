@@ -48,18 +48,28 @@ h1 {
 
 .heading {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 
-p {
+.text {
+  display: inline-block;
+  text-align: center;
   font-weight: 400;
   size: 19px;
-  height: 100px;
   font-family: 'Saint Colombe', 'Sainte Colombe Tracksmith', Helvetica, sans-serif;
-  width: 900px;
-  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  width: 600px;
+  height: 200px;
+  
 }
 
+.info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
 
 .title {
   display: flex;
@@ -74,10 +84,12 @@ p {
 }
 
 .content{
-  text-align: center;
-  display: block;
-    margin-left: 100px;
-    margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -89,8 +101,8 @@ p {
 }
 
 .logo{
-    height: 100px;
-    width: 150px;
+    height: 80px;
+    width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
